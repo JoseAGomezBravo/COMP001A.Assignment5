@@ -1,0 +1,38 @@
+body {
+    background-color: olivedrab;
+}
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: black;
+}
+
+div ul {
+    list-style-type: square;
+}
+
+a {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}
